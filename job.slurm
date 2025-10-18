@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=jupyter-gpu
 #SBATCH --output=jupyter.log
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=128G
+#SBATCH --gres=gpu:8
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=256G
 #SBATCH --time=02:00:00
 #SBATCH --partition=dgx*
 
