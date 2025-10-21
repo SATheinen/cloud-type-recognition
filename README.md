@@ -88,6 +88,14 @@ Train loss: 0.7080
 Val loss: 0.6830
 Dice coefficient: 0.3156
 
+Original Satellite image
+![image](exmample_images/cloud_image.png)
+
+Cloud Mask
+![image](exmample_images/cloud_mask.png)
+
+Predicted Mask
+![image](exmample_images/cloud_pred.png)
 
 ## ⭐ Features Summary
 🎭 Full image and mask loading pipeline
